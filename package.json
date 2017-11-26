@@ -1,6 +1,6 @@
 {
   "name": "rail-baron-lib",
-  "version": "0.9.0",
+  "version": "1.0.0-rc1",
   "description": "Library of model objects and utilities for implementing the game Rail Baron",
   "main": "src/index.js",
   "scripts": {
