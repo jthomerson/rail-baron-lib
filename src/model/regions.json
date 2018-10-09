@@ -1,9 +1,9 @@
 [
-   { "key": "NORTHEAST", "name": "Northeast" },
-   { "key": "SOUTHEAST", "name": "Southeast" },
-   { "key": "NORTH_CENTRAL", "name": "North Central" },
-   { "key": "SOUTH_CENTRAL", "name": "South Central" },
-   { "key": "PLAINS", "name": "Plains" },
-   { "key": "NORTHWEST", "name": "Northwest" },
-   { "key": "SOUTHWEST", "name": "Southwest" }
+   { "key": "NORTHEAST", "name": "Northeast", "abbreviation": "NE" },
+   { "key": "SOUTHEAST", "name": "Southeast", "abbreviation": "SE" },
+   { "key": "NORTH_CENTRAL", "name": "North Central", "abbreviation": "NC" },
+   { "key": "SOUTH_CENTRAL", "name": "South Central", "abbreviation": "SC" },
+   { "key": "PLAINS", "name": "Plains", "abbreviation": "PL" },
+   { "key": "NORTHWEST", "name": "Northwest", "abbreviation": "NW" },
+   { "key": "SOUTHWEST", "name": "Southwest", "abbreviation": "SW" }
 ]

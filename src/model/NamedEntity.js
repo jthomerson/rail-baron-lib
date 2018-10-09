@@ -4,9 +4,10 @@ var Class = require('class.extend');
 
 module.exports = Class.extend({
 
-   init: function(name, key) {
-      this._name = name;
-      this._key = key;
+   init: function(data) {
+      this._name = data.name;
+      this._key = data.key;
+      this._abbreviation = data.abbreviation || data.key;
    },
 
    getName: function() {
@@ -15,6 +16,10 @@ module.exports = Class.extend({
 
    getKey: function() {
       return this._key;
+   },
+
+   getAbbreviation: function() {
+      return this._abbreviation;
    },
 
 });

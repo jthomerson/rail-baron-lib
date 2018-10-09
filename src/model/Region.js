@@ -1,8 +1,8 @@
 'use strict';
 
 var _ = require('underscore'),
-    BaseClass = require('./NamedEntity'),
     regions = require('./regions'),
+    BaseClass = require('./NamedEntity'),
     Region;
 
 module.exports = Region = BaseClass.extend({
@@ -24,6 +24,8 @@ module.exports = Region = BaseClass.extend({
 
 Region.ALL = [];
 _.each(regions, function(region) {
-   Region[region.key] = new Region(region.name, region.key);
+   Region[region.key] = new Region(region);
    Region.ALL.push(Region[region.key]);
 });
+
+require('./add-finders')(Region);
