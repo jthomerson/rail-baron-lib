@@ -2,8 +2,9 @@
 
 var _ = require('underscore'),
     City = require('../model/City'),
-    Region = require('../model/Region'),
     Class = require('class.extend'),
+    isOdd = require('./is-odd'),
+    Region = require('../model/Region'),
     rollData = require('./dice-roll-data');
 
 module.exports = Class.extend({
@@ -21,14 +22,14 @@ module.exports = Class.extend({
       }, {});
    },
 
-   lookupRegion: function(number, isOdd) {
-      var result = _.findWhere(this._regionalRolls, { number: number, isOdd: isOdd });
+   lookupRegion: function(number, isOddInput) {
+      var result = _.findWhere(this._regionalRolls, { number: number, isOdd: isOdd(isOddInput) });
 
       return result ? result.region : null;
    },
 
-   lookupCity: function(region, number, isOdd) {
-      var result = _.findWhere(this._cityRolls[region.getKey()], { number: number, isOdd: isOdd });
+   lookupCity: function(region, number, isOddInput) {
+      var result = _.findWhere(this._cityRolls[region.getKey()], { number: number, isOdd: isOdd(isOddInput) });
 
       return result ? result.city : null;
    },

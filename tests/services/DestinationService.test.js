@@ -12,6 +12,8 @@ describe('DestinationService', function() {
 
       it('looks up the correct region', function() {
          expect(svc.lookupRegion(2, true)).to.eql(Region.PLAINS);
+         expect(svc.lookupRegion(2, 3)).to.eql(Region.PLAINS);
+         expect(svc.lookupRegion(2, '3')).to.eql(Region.PLAINS);
       });
 
       it('returns null when an invalid roll is given', function() {
