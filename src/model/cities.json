@@ -7,7 +7,7 @@
    { "key": "NEW_YORK", "name": "New York", "region": "NORTHEAST" },
    { "key": "PHILADELPHIA", "name": "Philadelphia", "region": "NORTHEAST" },
    { "key": "PITTSBURGH", "name": "Pittsburgh", "region": "NORTHEAST" },
-   { "key": "PORTLAND_ME", "name": "Portland, ME", "region": "NORTHEAST" },
+   { "key": "PORTLAND_ME", "name": "Portland, Maine", "region": "NORTHEAST" },
    { "key": "WASHINGTON", "name": "Washington", "region": "NORTHEAST" },
 
    { "key": "ATLANTA", "name": "Atlanta", "region": "SOUTHEAST" },
@@ -57,7 +57,7 @@
    { "key": "BUTTE", "name": "Butte", "region": "NORTHWEST" },
    { "key": "CASPER", "name": "Casper", "region": "NORTHWEST" },
    { "key": "POCATELLO", "name": "Pocatello", "region": "NORTHWEST" },
-   { "key": "PORTLAND_OR", "name": "Portland, OR", "region": "NORTHWEST" },
+   { "key": "PORTLAND_OR", "name": "Portland, Oregon", "region": "NORTHWEST" },
    { "key": "RAPID_CITY", "name": "Rapid City", "region": "NORTHWEST" },
    { "key": "SALT_LAKE_CITY", "name": "Salt Lake City", "region": "NORTHWEST" },
    { "key": "SEATTLE", "name": "Seattle", "region": "NORTHWEST" },
