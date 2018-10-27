@@ -24,3 +24,5 @@ _.each(cities, function(config) {
    City.ALL.push(City[config.key]);
    region._registerCity(City[config.key]);
 });
+
+require('./add-finders')(City);
